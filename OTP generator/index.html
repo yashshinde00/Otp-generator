@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="formContainer">
+      <h1>Enter Your details.</h1>
+      <form>
+        <label for="Name">Name </label>
+        <input type="text" />
+
+        <label for="password">Password </label>
+        <input type="password" name="password" id="password" />
+
+        <label for="otp">Enter the OTP here </label>
+        <input type="text" name="otp" id="otp" />
+        <button class="btn" id="btn">Generate OTP</button>
+
+        <input type="text" name="otpshower" id="otpshower" />
+        <p id="otpdisplay"></p>
+
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
